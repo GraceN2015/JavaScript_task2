@@ -1,0 +1,54 @@
+let x = 8;
+let y = 12;
+
+let isGreater = x > y;
+let isLessOrEqual = x <= y;
+let isEqual = x === y;
+let isNotEqual = x !== y;
+
+console.log("Is x greater than y?", isGreater);
+console.log("Is x less than or equal to y?", isLessOrEqual);
+console.log("Is x equal to y?", isEqual);
+console.log("Is x not equal to y?", isNotEqual);
+
+Is x greater than y? false
+Is x less than or equal to y? true
+Is x equal to y? false
+Is x not equal to y? true
+let a = true;
+let b = false;
+
+let andResult = a && b;
+let orResult = a || b;
+let notA = !a;
+
+console.log("a AND b:", andResult);
+console.log("a OR b:", orResult);
+console.log("NOT a:", notA);
+a AND b: false
+a OR b: true
+NOT a: false
+let a = 10;
+a += 5;  // a = a + 5
+console.log("a += 5:", a);
+
+let b = 10;
+b -= 3;  // b = b - 3
+console.log("b -= 3:", b);
+
+let c = 10;
+c *= 2;  // c = c * 2
+console.log("c *= 2:", c);
+
+let d = 10;
+d /= 2;  // d = d / 2
+console.log("d /= 2:", d);
+
+let e = 10;
+e %= 3;  // e = e % 3
+console.log("e %= 3:", e);
+a += 5: 15
+b -= 3: 7
+c *= 2: 20
+d /= 2: 5
+e %= 3: 1
